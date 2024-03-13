@@ -47,13 +47,24 @@
     // let newarr = x.concat(z); // return a new array marge 2 or more arrays
     // console.log(newarr);
 
-    let compare = (a, b) => {
-        return a - b;  // use for increasing 
-        // use for decreasing (b - a)
-    }
-    let arr = [56, 40, 35, 48, 29, 59]
-    arr.sort(compare); //arrange element in alphabetical order
-    console.log(arr);
+    // let compare = (a, b) => {
+    //     return a - b;  // use for increasing 
+    //     // use for decreasing (b - a)
+    // }
+    // let arr = [56, 40, 35, 48, 29, 59]
+    // arr.sort(compare); //arrange element in alphabetical order
+    // console.log(arr);
+
+    const arr1 = [3, 5, 1, 67, 90, 45];
+    // add element--- position, index, value---
+    arr1.splice(2, 1, 4);
+    console.log(arr1);
+
+    let newar = arr1.slice(1);
+    console.log(newar);
+    // arr1.slice(3,90);
+
+
 </script>
 
 </html>
