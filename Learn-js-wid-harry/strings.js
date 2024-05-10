@@ -1,3 +1,13 @@
+
+//there are two ways to creat string like
+// 1. "" ;
+// 2. '' ;
+
+
+
+
+
+
 // How to Get Character of Specific Position using JavaScript?
 
 
