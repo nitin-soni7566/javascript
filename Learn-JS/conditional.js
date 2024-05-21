@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <h1>We are learnning javaScript please join us</h1>
-    <h3>
-        Right click on mouse , scroll down -- go to inspect and then go to console ....<h1>finally</h1> ....<br />
-        you can see your output of js here...
-    </h3>
-    <script>
         let a = prompt("what's your age ??");
         a = Number.parseInt(a) // because in js all datatypes are consider as a string 
         //that's by we are converting (a ) in a number as a integer
@@ -43,7 +28,4 @@
             alert("undifined this is unvailid");
 
         }
-    </script>
-</body>
-
-</html>
+   

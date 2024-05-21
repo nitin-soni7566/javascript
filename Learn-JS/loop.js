@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <!-- <script src="index01.js"></script> -->
-</head>
-
-<body>
-  <!-- javascript is a programming language  -->
-  <h1>Learning javascript</h1>
-  </head>
-
-  <body>
-    <h1>We are learnning javaScript please join us</h1>
-    <h3>
-      Right click on mouse , scroll down -- go to inspect and then go to console ....<h1>finally</h1> ....<br />
-      you can see your output of js here...
-    </h3>
-  </body>
-  <script>
 
     // there are 2 types of gor loop 1st for in and 2nd for of
 
@@ -64,6 +42,4 @@
       i++;
     }
     while (i < 10);
-  </script>
-
-</html>
+  

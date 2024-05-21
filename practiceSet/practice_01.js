@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-</head>
-
-<body style="background-color: aqua">
-  <h1>We are learnning javaScript please join us</h1>
-  <h3>
-    Right click on mouse , scroll down -- go to inspect and then go to console ....<h1>finally</h1> ....<br />
-    you can see your output of js here...
-  </h3>
-</body>
-<script>
 
   // Question no. 1st
   //create a variable of type string and try to add a number to ti
@@ -66,6 +50,13 @@
 
   console.log('learn');
 
-</script>
 
-</html>
+  const profile = {
+    userName: "@pushpanjali-soni",
+    isFollow: true,
+    followers: 15000,
+    following: 150,
+    post: 100,
+    bio: " hiii i'm pushpanjali soni , i'm learnning javascript from sharaddha dd"
+  }
+  console.log(profile);

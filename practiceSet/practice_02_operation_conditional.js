@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-</head>
-
-<body style="background-color: aqua">
-
-  <h1>We are learnning javaScript please join us</h1>
-  <h3>
-    Right click on mouse , scroll down -- go to inspect and then go to console ....<h1>finally</h1> ....<br />
-    you can see your output of js here...
-  </h3>
-</body>
-<script>
   // // use logical operators to find weather the age of a person lies between 10 and 20
   // let age = prompt("what is your age...?")
   // age = parseInt(age)
@@ -79,6 +62,3 @@
   let a = agee > 18 ? "you can drive" : " you can not drive"
   console.log(a);
 
-</script>
-
-</html>

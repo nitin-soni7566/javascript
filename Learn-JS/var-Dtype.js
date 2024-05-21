@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <!-- <script src="index01.js"></script> -->
-</head>
-
-<body>
-  <!-- javascript is a programming language  -->
-  <h1>We are learnning javaScript please join us</h1>
-  <h3>
-    Right click on mouse , scroll down -- go to inspect and then go to console ....<h1>finally</h1> ....<br />
-    you can see your output of js here...
-  </h3>
-</body>
-<script>
   // variables in javascript.. variables are container to store data values
   // let num = 5;
   // let num1 = 6;
@@ -167,6 +149,3 @@
   console.log((a11 /= b11));
   console.log("value of a11 :", a11); // value of a11 
   console.log((a11 **= b11));
-</script>
-
-</html>

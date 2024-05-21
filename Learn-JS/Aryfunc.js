@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <h1>We are learnning javaScript please join us</h1>
-    <h3>
-        Right click on mouse , scroll down -- go to inspect and then go to console ....<h1>finally</h1> ....<br />
-        you can see your output of js here...
-    </h3>
-</body>
-<script>
     let x = [16, 2, 6, 5, 9, 10, 8, 15];
     console.log(x);
 
@@ -64,7 +48,3 @@
     console.log(newar);
     // arr1.slice(3,90);
 
-
-</script>
-
-</html>
