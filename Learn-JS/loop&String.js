@@ -24,21 +24,28 @@ for (let a in obj) {
 
 }
 
-//for of
-for (let b of "kishn") {
-  console.log(b);
+//for of loop 
+let string = "pushpanjali";
+let size = 0;
+for (let b of string) {
+  console.log(b);  //print all single character
+  size++;
 }
+console.log("size =", size); // 11
+
+
 
 // while loop 
+let i = 0;
 while (i < 5) {
-  console.log("hello pushpanjali while");
+  console.log("hello pushpanjali (while)");
   i++;
 }
 
 
 // do while
 do {
-  console.log("hello pushpanjali do while");
+  console.log("hello pushpanjali ( do while)");
   i++;
 }
 while (i < 10);
@@ -48,6 +55,35 @@ while (i < 10);
 //there are two ways to creat string like
 // 1. "" ;
 // 2. '' ;
+
+//<----------template literal (expression like ${1+2}) or strimg interplation ${object.item}----------->
+
+let specialStr = `this is a template literal`;
+let object = {
+  item: "schoolBag",
+  price: 500,
+};
+let output = `the cost of ${object.item} is ${object.price} rupees`;
+console.log(output);
+
+// escape characters 
+//  \n ---> next line
+//  \t ---> tab space
+//    \ and n count is 1 not 2 like pushpa\nanjai 13 words
+// but length is 12 because \n is count as 1 word
+
+//              < ------string methode--------->
+
+let string1 = "pushpanjali";
+let string2 = "PUSHPANJALI";
+let string3 = "    learnning  js   ";
+console.log(string1.toUpperCase());
+console.log(string2.toLowerCase());
+console.log(string3.trim()); // only remove sstrting and ending spaces
+console.log(string1.slice(0, 6)); //pushpa
+console.log(string1.concat(string1, string3));
+console.log(string1.replace("pushpa", "A"));
+console.log(string1.charAt(4)); //p
 
 // How to Get Character of Specific Position using JavaScript?
 
@@ -64,6 +100,7 @@ for (let i = 0; i < str.length; i++) {
 }
 
 // How to replace multiple spaces with single space in JavaScript ?
+
 let str1 = " hiii    i'm     pushpanjali       soni";
 let newstr = str1.trim().split(/[\s,\t,\n]+/).join(' ');
 
