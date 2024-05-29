@@ -24,4 +24,4 @@ const helloprint = () => {
   console.log("hello world");
 }
 
-
+//for each loop 
