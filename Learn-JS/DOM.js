@@ -23,7 +23,7 @@ console.log(headings);
 let tag = document.getElementsByTagName("h1");
 console.dir(tag);
 
-//// query selector
+// we use ( query selector) place of id tagname and class
 let element = document.querySelector("p");
 let elements = document.querySelectorAll("p");
 let element1 = document.querySelectorAll(".heading-class");
@@ -49,7 +49,32 @@ console.log(elem2);
 // forms, doctype, URL, baseURI, domain
 
 //             GET AND SET VALUE METHODS
+// we can get 
+//1.HTML  -------> innerHTML
+//2.text  -------> innerText
+//3.Attribute  ------> getAttribute , getAttributeNode , Attributes
 
+// let elem3 = document.getElementById("para").innerText;
+// let elem3 = document.getElementById("content").innerHTML;
+// let elem3 = document.getElementById("content").innerHTML = "hello";
+// let elem3 = document.getElementById("para").innerText = "this is a paragraph";
+// let elem3 = document.getElementById("div").getAttribute("style");
+// let elem3 = document.getElementById("div").getAttributeNode("style").value;
+// let elem3 = document.getElementById("div").attributes;
+// let elem3 = document.getElementById("div").attributes[2].value;
+let elem3 = document.getElementById("div").attributes[2].name;
+console.log(elem3);
 
+//    set methods
+//1.innerText
+//2. innerHTML
+//3.setAttribute
+//4. Attribute
+//5. removeAttribute
 
-
+let elem4 = document.getElementById("div").innerHTML = "<h1>welcom to my web page</h1> ";
+let elem5 = document.getElementById("div").setAttribute("style", "border: 10px dotted black; background-Color: yellow");
+// let elem5 = document.getElementById("div").getAttribute("class");
+// let elem6 = document.getElementById("div").removeAttribute("style");
+console.log(elem4);
+console.log(elem5);

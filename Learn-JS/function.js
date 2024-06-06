@@ -53,7 +53,7 @@ array.forEach(printVal);
 
 ///     <--------------Array method------------>
 //               MAP JUST LIKE FOREACH LOOP 
-// NUT MAP IS USED TO CREATE NEW ARRAY AND FOR EACH IS USED TO CALCULATE OR PRINT EACH VLUES AND ELEMENTS
+// BUT MAP IS USED TO CREATE NEW ARRAY AND FOR EACH IS USED TO CALCULATE OR PRINT EACH VLUES AND ELEMENTS
 // map(callbackfn: (value: number, index: number, array: number[]) => any, thisArg?: any): any[]
 
 let newAr = array.map((val) => {
