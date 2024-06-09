@@ -25,6 +25,13 @@ console.dir(tag);
 
 // we use ( query selector) place of id tagname and class
 let element = document.querySelector("p");
+// let element = document.querySelector("div").style.border;
+// let element = document.querySelector("div").style.backgroundColor ="pink";
+// let element = document.querySelector("div").className ="cls";
+// let element = document.querySelector("div").classList =" cls xyz";
+// let element = document.querySelector("div").classList; // rturn array
+
+
 let elements = document.querySelectorAll("p");
 let element1 = document.querySelectorAll(".heading-class");
 let element2 = document.querySelectorAll("#btn");
@@ -78,3 +85,24 @@ let elem5 = document.getElementById("div").setAttribute("style", "border: 10px d
 // let elem6 = document.getElementById("div").removeAttribute("style");
 console.log(elem4);
 console.log(elem5);
+
+//  DOM CSS STYLING METHODE
+// . style
+// . className
+// . classList
+
+// EVENT LISTENOR
+// let elem6 = document.getElementById("btn").onclick = clrchang;
+// let elem6 = document.getElementById("btn").addEventListener("click", bgclrchang);
+// let elem6 = document.getElementById("btn").addEventListener("mouseenter", clrchang);
+let elem6 = document.getElementById("btn").addEventListener("mouseenter", function () {
+    document.getElementById("btn").style.padding = "10px";
+
+});
+function bgclrchang() {
+    document.getElementById("btn").style.backgroundColor = "blue";
+}
+function clrchang() {
+    document.getElementById("btn").style.color = "red";
+}
+console.log(elem6);
