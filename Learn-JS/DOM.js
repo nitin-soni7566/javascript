@@ -92,11 +92,15 @@ console.log(elem5);
 // . classList
 
 // EVENT LISTENOR
+//   addEventListener(event, function, useCapture);
+// useCapture hase two valuse
+
 // let elem6 = document.getElementById("btn").onclick = clrchang;
 // let elem6 = document.getElementById("btn").addEventListener("click", bgclrchang);
 // let elem6 = document.getElementById("btn").addEventListener("mouseenter", clrchang);
 let elem6 = document.getElementById("btn").addEventListener("mouseenter", function () {
-    document.getElementById("btn").style.padding = "10px";
+    // document.getElementById("btn").style.padding = "10px";
+    this.style.padding = "10px";
 
 });
 function bgclrchang() {
@@ -106,3 +110,4 @@ function clrchang() {
     document.getElementById("btn").style.color = "red";
 }
 console.log(elem6);
+

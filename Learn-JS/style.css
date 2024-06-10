@@ -13,3 +13,8 @@ color: white;
     background-color: black;
 
 }
+
+outer{
+    padding: 20px;
+    background-color: rgb(47, 179, 102);
+}
