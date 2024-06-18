@@ -96,18 +96,26 @@ console.log(elem5);
 // useCapture hase two valuse
 
 // let elem6 = document.getElementById("btn").onclick = clrchang;
-// let elem6 = document.getElementById("btn").addEventListener("click", bgclrchang);
-// let elem6 = document.getElementById("btn").addEventListener("mouseenter", clrchang);
-let elem6 = document.getElementById("btn").addEventListener("mouseenter", function () {
-    // document.getElementById("btn").style.padding = "10px";
-    this.style.padding = "10px";
+let elem6 = document.getElementById("btn").addEventListener("click", bgclrchang);
+let elem7 = document.getElementById("btn").addEventListener("mouseenter", clrchang);
+// let elem6 = document.getElementById("btn").addEventListener("mouseenter", function () {
+//     // document.getElementById("btn").style.padding = "10px";
+//     this.style.padding = "10px";
 
-});
+// });
 function bgclrchang() {
     document.getElementById("btn").style.backgroundColor = "blue";
 }
 function clrchang() {
     document.getElementById("btn").style.color = "red";
 }
-console.log(elem6);
 
+
+console.log(elem6);
+console.log(elem7);
+
+
+// //  remove event listenor
+// function clrchang() {
+//     document.getElementById("btn").removeEventListener("click", bgclrchang);
+// }
