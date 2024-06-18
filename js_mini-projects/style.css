@@ -3,9 +3,19 @@ padding: 0;
 margin: 0;
 }
  body{
-border:  2px solid black ;
+/* border:  2px solid black ; */
 text-align: center;
 background-color: rgb(122, 87, 109);
+ }
+ .container{
+    height:75vh ;
+    display: flex;
+
+
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+    
  }
 .game{
     height: 60vmin;
@@ -16,8 +26,15 @@ background-color: rgb(122, 87, 109);
     align-items: center;
     gap:1.5vmin;
     
+    
 }
  .box{
     height: 18vmin;
     width: 18vmin;
+ }
+ #reset-btn{
+    padding: 0.5rem;
+    font-size: 1rem;
+    color:white;
+    background-color: black;
  }
