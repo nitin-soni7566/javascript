@@ -31,10 +31,22 @@ background-color: rgb(122, 87, 109);
  .box{
     height: 18vmin;
     width: 18vmin;
+    font-size: 5vmin;
+    color:brown
  }
  #reset-btn{
     padding: 0.5rem;
     font-size: 1rem;
     color:white;
     background-color: black;
+ }
+ #new-btn{
+   padding: 0.5rem;
+   font-size: 1rem;
+   color:white;
+   background-color: black;
+ }
+ #msg{
+   font-size: 8vmin;
+   color: black;
  }
